@@ -1,6 +1,7 @@
 {
     "require": {
         "bolstad/csv-parser": "dev-master",
-        "bolstad/csv-writer": "dev-master"
+        "bolstad/csv-writer": "dev-master",
+        "aura/cli": "2.0.0"
     }
 }
