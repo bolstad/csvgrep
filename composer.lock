@@ -1,0 +1,99 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "8f2a7be428bf01e50503f10c36816e55",
+    "packages": [
+        {
+            "name": "bolstad/csv-parser",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bolstad/csvparser.git",
+                "reference": "996c19e41878b7e51713a4dd652117379012eb72"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bolstad/csvparser/zipball/996c19e41878b7e51713a4dd652117379012eb72",
+                "reference": "996c19e41878b7e51713a4dd652117379012eb72",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "CsvParser": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Bolstad",
+                    "email": "christian@bolstad.se"
+                }
+            ],
+            "description": "Simple system for parsing CSV-files row by row and sending the data to a callback",
+            "time": "2014-07-23 15:28:36"
+        },
+        {
+            "name": "bolstad/csv-writer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bolstad/csvwriter.git",
+                "reference": "9a888121ab590824e51a0a706e8e970fd411d1de"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bolstad/csvwriter/zipball/9a888121ab590824e51a0a706e8e970fd411d1de",
+                "reference": "9a888121ab590824e51a0a706e8e970fd411d1de",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "HelloWorld": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Bolstad",
+                    "email": "christian@bolstad.se"
+                }
+            ],
+            "description": "Simple system for writing an array to CSV row by row",
+            "time": "2014-08-25 12:53:27"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "bolstad/csv-parser": 20,
+        "bolstad/csv-writer": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}

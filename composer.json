@@ -1,0 +1,6 @@
+{
+    "require": {
+        "bolstad/csv-parser": "dev-master",
+        "bolstad/csv-writer": "dev-master"
+    }
+}
