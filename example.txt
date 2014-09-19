@@ -1,0 +1,1 @@
+ ./csvgrep.php --file=/Users/christian/Downloads/download_bilweb_se_18_Sep_14_BBB8061B90D237DBEBB0D28B1E9560F9.csv --filter='Source URL'-'/^((?!alltom).)*$/'
