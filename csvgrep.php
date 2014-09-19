@@ -25,7 +25,7 @@ $context = $cli_factory->newContext($GLOBALS);
 $stdio = $cli_factory->newStdio();
 
 // define options and named arguments through getopt
-$options = ['verbose,v,file'];
+$options = ['verbose,v,file:'];
 $getopt = $context->getopt($options);
 
 print_r($getopt);
